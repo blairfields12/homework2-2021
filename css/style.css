@@ -5,7 +5,6 @@ body{
 	padding:1%;
 	font-size:150%;
 	font-family: 'Times New Roman', sans-serif;
-	/* font-family: 'Times New Roman'; */
 	background-color: #000;
 	color: #FFF
 }
@@ -24,8 +23,8 @@ h1{
 /*Style the images*/
 img{
     /* height: 200px; */
-	/* object-fit: cover; */
-    width: 550px;;
+    width: 550px;
+	object-fit: cover;
     /* border: 3px solid blue; */
     /* padding: 25px; */
     /* border-radius: 10px; */
@@ -74,8 +73,7 @@ nav li{
 }
 
 div {
-	height: 150px;
-	/* height: auto; */
+	min-height: 150px;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 25px;
